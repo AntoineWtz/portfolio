@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Tillana:wght@400;500;600;700;800&display=swap");
+@media screen {
+  body {
+    background-color: #13282B;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    color: #DEF9FA;
+    font-size: 1.2em;
+    letter-spacing: 0.05rem;
+  }
+  body .header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #13282B;
+    border-bottom: 1px solid #827191;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  body .header .logo {
+    grid-area: 1/1/2/2;
+    background-image: url(../img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+  }
+  body .header nav {
+    grid-area: 1/2/2/5;
+    border-left: 1px solid #827191;
+    border-right: 1px solid #827191;
+    width: 100%;
+  }
+  body .header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+  }
+  body .header nav ul li {
+    position: relative;
+    opacity: 0;
+  }
+  body .header nav ul li a {
+    color: #DEF9FA;
+    text-decoration: none;
+    transition: all 0.23s ease-in-out;
+    position: relative;
+  }
+  body .header nav ul li a:hover {
+    color: #827191;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  body .header nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: -3px;
+    background-color: #827191;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.32s ease-in-out 0s;
+  }
+  body .header nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  body .header .contact {
+    grid-area: 1/5/2/6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #827191;
+    width: 100%;
+    margin-left: -10px;
+  }
+  body .header .contact:hover {
+    color: #DEF9FA;
+    cursor: grab;
+  }
+  body .accueil {
+    background-color: #13282B;
+    color: #DEF9FA;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  body .accueil .accueil-titre {
+    grid-area: 1/1/2/3;
+    display: flex;
+    text-align: center;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #055256;
+    text-justify: auto;
+  }
+  body .accueil .accueil-titre h1 {
+    font-family: "Tillana", cursive;
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: 0.23rem;
+    color: #9AB8BA;
+    animation: flashlight 1.5s ease-out infinite alternate;
+  }
+  @keyframes flashlight {
+    0% {
+      text-shadow: 0 0 3px #827191;
+    }
+    33% {
+      text-shadow: 0 0 6px #827191;
+    }
+    66% {
+      text-shadow: 0 0 9px #827191;
+    }
+    100% {
+      text-shadow: 0 0 9px #827191, 0 0 6px #827191, 0 0 3px #ffffff;
+    }
+  }
+  body .accueil .accueil-titre h3.sous-titre {
+    color: #827191;
+    font-weight: 400;
+    font-size: 1.4em;
+    opacity: 0;
+  }
+  body .accueil .accueil-accroche {
+    grid-area: 2/1/3/4;
+    display: flex;
+    text-justify: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    border-bottom: 1px solid #055256;
+    background-image: url(../img/blob.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  body .accueil .accueil-accroche .text-accroche {
+    max-width: 30em;
+    font-size: 1.2rem;
+    margin: 180px 0;
+    height: auto;
+    text-align: center;
+    opacity: 0;
+  }
+  body .accueil .accueil-accroche p {
+    padding: 0 20px;
+  }
+  body .accueil .accueil-accroche .about {
+    font-size: 1.2rem;
+    max-width: 900px;
+    padding: 45px 30px;
+    text-align: left;
+    margin: 50px 0;
+    line-height: 1.23em;
+  }
+  body .accueil .projets-accroche {
+    grid-area: 2/1/3/4;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.4rem;
+    border-bottom: 1px solid #055256;
+    background-image: url(./img/blob.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  body .accueil .projets-accroche .text-accroche {
+    max-width: 30em;
+    font-size: 1.2rem;
+    margin: 180px 0;
+    height: auto;
+    text-align: center;
+  }
+  body .accueil .projets-accroche p {
+    padding: 0 20px;
+  }
+  body .accueil .projets-accroche .about {
+    font-size: 1.2rem;
+    max-width: 900px;
+    padding: 45px 30px;
+    text-align: left;
+    margin: 50px 0;
+    line-height: 1.23em;
+  }
+  body .accueil .projets-accroche .projets {
+    color: #DEF9FA;
+    padding: 0px 10px;
+    margin: 5px;
+    min-height: 400px;
+  }
+  body .accueil .projets-accroche .projets h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #9AB8BA;
+  }
+  body .accueil .projets-accroche .projets img {
+    width: 100%;
+    height: 80%;
+  }
+  body .accueil .projets-accroche .projets img:hover {
+    transform: scale(1.02);
+    transition: all 0.15s ease-out;
+  }
+  body .accueil .accueil-aside {
+    grid-area: 1/3/2/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #055256;
+    border-bottom: 1px solid #055256;
+    transition: all 0.5s ease-in-out;
+  }
+  body .accueil .accueil-aside .titre-aside {
+    color: #055256;
+    position: relative;
+    top: -10px;
+  }
+  body .accueil .accueil-aside span {
+    font-size: 1.2rem;
+    color: #DEF9FA;
+    text-decoration: none;
+    transition: all 0.23s ease-in-out;
+  }
+  body .accueil .accueil-aside span:hover {
+    color: #13282B;
+    cursor: grabbing;
+  }
+  body .accueil .accueil-aside p {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+  }
+  body .accueil .accueil-aside p a {
+    font-size: 1.2rem;
+    color: #055256;
+    text-decoration: none;
+    transition: all 0.23s ease-in-out;
+    padding: 0 0.5rem;
+  }
+  body .accueil .accueil-aside p a:hover {
+    color: #13282B;
+    cursor: default;
+    transform: scale(1.1);
+  }
+  body .liseret {
+    height: 100px;
+    background-color: #055256;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='727' height='87.2' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='13.3' stroke-opacity='0.47'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  body footer {
+    padding: 20px 15px;
+    background-color: #13282B;
+    color: #055256;
+    text-align: center;
+    border-bottom: 1px solid #055256;
+    border-top: 1px solid #055256;
+  }
+  body footer .lien-footer {
+    margin: 5px;
+  }
+  body footer .lien-footer a svg {
+    opacity: 0.5;
+    padding: 0.3rem;
+    transition: 0.3s transform, 0.3s opacity;
+    border-radius: 50%;
+  }
+  body footer .lien-footer a svg:hover {
+    opacity: 1;
+    transform: rotate(20deg);
+    background-color: #055256;
+  }
+  body footer span {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 1050px) {
+  body .header {
+    background-color: #13282B;
+  }
+  body .header .logo {
+    width: auto;
+  }
+  body .header nav ul li a {
+    width: auto;
+  }
+  body .accueil {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+  }
+  body .accueil .accueil-accroche {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+  }
+  body .accueil .accueil-accroche .text-accroche {
+    font-size: 1.2rem;
+    margin: 160px 0;
+    height: auto;
+  }
+  body .accueil .projets-accroche {
+    display: block;
+    padding: 0 5px;
+  }
+  body .accueil .projets-accroche .text-accroche {
+    font-size: 1.2rem;
+    margin: 160px 0;
+    height: auto;
+  }
+  body .accueil .projets-accroche .projets {
+    text-align: center;
+  }
+  body .accueil .accueil-aside {
+    grid-area: 1/3/2/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #055256;
+    border-bottom: 1px solid #055256;
+    padding: 20px 20px;
+    transition: all 0.5s ease-in-out;
+  }
+  body .accueil .accueil-aside span a {
+    color: #DEF9FA;
+    text-decoration: none;
+  }
+  body .accueil .accueil-aside p {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  body .accueil .accueil-aside p a {
+    color: #055256;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    padding: 0.5rem 0.5rem;
+  }
+  body .accueil .accueil-aside p a:hover {
+    color: #13282B;
+    cursor: default;
+    transform: scale(1.15);
+  }
+}
+@media screen and (max-width: 768px) {
+  body .header nav {
+    border-left: 1px solid #055256;
+    border-right: 1px solid #055256;
+  }
+  body .accueil {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+  }
+  body .accueil .accueil-titre h1 {
+    font-size: 2.4rem;
+  }
+  body .accueil .accueil-titre h3 {
+    font-size: 1rem;
+  }
+  body .accueil .projets p {
+    font-size: 1rem;
+    text-align: left;
+  }
+}/*# sourceMappingURL=style.css.map */
