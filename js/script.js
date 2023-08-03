@@ -10,7 +10,7 @@ function contactAside() {
       aside.style.backgroundColor = "#827191";
       aside.innerHTML = `
           <p class="titre-aside">Bonjour</p>
-          <span>awtz.dev@gmail.com</span>
+           <a href="mailto:awtz.dev@gmail.com">awtz.dev@gmail.com</a>
           <p>
             <a href="https://www.linkedin.com/in/antoine-wurtz/" target="_blank">LinkedIn</a>
             <a href="https://github.com/AntoineWtz" target="_blank">GitHub</a>

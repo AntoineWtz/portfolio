@@ -102,6 +102,11 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
+  body .accueil h6 {
+    text-align: center;
+    width: 100vw;
+    color: #055256;
+  }
   body .accueil .accueil-titre {
     grid-area: 1/1/2/3;
     display: flex;
@@ -240,16 +245,6 @@
     color: #055256;
     position: relative;
     top: -10px;
-  }
-  body .accueil .accueil-aside span {
-    font-size: 1.2rem;
-    color: #DEF9FA;
-    text-decoration: none;
-    transition: all 0.23s ease-in-out;
-  }
-  body .accueil .accueil-aside span:hover {
-    color: #13282B;
-    cursor: grabbing;
   }
   body .accueil .accueil-aside p {
     position: relative;
