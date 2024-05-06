@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <ul className={`nav-links ${showMenu ? 'show' : ''}`}>
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#projects">WORK</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
         <div className="burger-menu" onClick={toggleMenu}>
