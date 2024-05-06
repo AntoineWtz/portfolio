@@ -95,7 +95,7 @@ const Projects = () => {
   ];
 
   const handleReadMore = () => {
-    setProjectsToShow(projectsToShow + 3); 
+    setProjectsToShow(projectsToShow + 3);
   };
 
   return (
