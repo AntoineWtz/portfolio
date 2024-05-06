@@ -29,7 +29,7 @@
     width: calc(33.33% - 40px);
     margin: 0 20px 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
     border: 1px solid #D8CBC7;
@@ -97,6 +97,7 @@
 .read-more-btn {
     display: block;
     margin: 10px auto;
+    margin-bottom: 40px;
     padding: 10px 20px;
     font-size: 1.2em;
     font-weight: 600;

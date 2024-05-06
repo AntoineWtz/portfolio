@@ -13,11 +13,11 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <h2>Contact</h2>
-      <p>Vous pouvez me contacter à l'adresse <Email /> ou remplir ce formulaire :</p>
+      <p>You can contact me at <Email /> or fill in this form :</p>
 
       <div id="form" className="form">
         <form>
-          <label htmlFor="name">Nom</label>
+          <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" required />
 
           <label htmlFor="email">Email</label>
@@ -26,8 +26,14 @@ const Contact = () => {
           <label htmlFor="message">Message</label>
           <textarea id="message" name="message" required></textarea>
 
-          <button type="submit">Envoyer</button>
+          <button type="submit">Send</button>
         </form>
+      </div>
+
+      <div id="social" className="social">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
       </div>
     </section>
   );
