@@ -80,7 +80,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2>Work</h2>
       <p className='section-infos'>Here are some of the personal and corporate projects I've enjoyed doing.</p>
       <div className="project-cards">

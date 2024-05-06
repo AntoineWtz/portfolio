@@ -1,12 +1,12 @@
 // About.js
 
 import React from 'react';
-import { FaCode, FaDatabase, FaTools } from 'react-icons/fa'; // Importe les icônes depuis react-icons
+import { FaCode, FaDatabase, FaTools } from 'react-icons/fa';
 import '../styles/About.css';
 
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <div className='about'>
         <h2>About</h2>
         <p>I started web development two years ago, initially to find out what was wrong with my employer's website, then I decided to make it my profession shortly afterwards. I've always liked building things, first Lego, then songs and now websites and applications.

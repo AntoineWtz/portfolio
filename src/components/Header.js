@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import '../styles/Header.css';
 import logo from '../img/avatar-AW-trans2.png';
-import burgerIcon from '../img/burger-icon.png'; 
+import burgerIcon from '../img/burger-icon.png';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);

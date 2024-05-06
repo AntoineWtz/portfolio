@@ -29,12 +29,6 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
       </div>
-
-      <div id="social" className="social">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </div>
     </section>
   );
 };
