@@ -1,0 +1,116 @@
+/* Hero.css */
+
+.hero {
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 4px !important;
+}
+
+.hero p {
+    font-size: 1.6rem;
+    color: #D8CBC7;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+    margin-top: 40px;
+}
+
+.hero span a {
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero span a:before,
+.hero span a:after {
+    position: absolute;
+    content: "Say hello";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.hero span a:before {
+    color: #D8CBC7;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+}
+
+.hero span a:after {
+    color: #D8CBC7;
+    transform: rotateX(90deg) translateZ(25px);
+}
+
+.hero span a:hover {
+    transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.hero span:hover {
+    filter: brightness(1.1);
+}
+
+/* MEDIA screen pour tablette */
+@media screen and (max-width: 1024px){
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.4rem;
+    }
+
+    .hero span {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}
+
+
+/* Téléphone */
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .hero span {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,49 @@
+/* ABOUT CSS */
+
+.about {
+    text-align: justify;
+    padding: 20px 40px;
+    border-top: 1px solid #D8CBC7;
+    border-bottom: 1px solid #D8CBC7;
+}
+
+.about h2 {
+    font-size: 2.7em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.column h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}

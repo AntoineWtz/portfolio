@@ -1,0 +1,16 @@
+/* APP CSS */
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Josefin Slab, sans-serif;
+  font-weight: 600;
+}
+
+body {
+    margin: 0;
+    background-color: #171614;
+    color: #D8CBC7;
+}
