@@ -16,6 +16,32 @@
     position: relative;
     font-weight: bold;
     letter-spacing: 4px !important;
+
+    overflow: hidden;
+    border-right: 1px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 3s steps(44) 0.5s 1 normal both,
+        blinkTextCursor 650ms infinite;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 45vw;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #D8CBC7;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
 }
 
 .hero p {
@@ -81,8 +107,8 @@
     filter: brightness(1.1);
 }
 
-/* MEDIA screen pour tablette */
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px) {
     .hero h1 {
         font-size: 2.5rem;
     }
@@ -95,10 +121,20 @@
         font-size: 1rem;
         margin-top: 20px;
     }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 65vw;
+        }
+    }
+
 }
 
 
-/* Téléphone */
 @media screen and (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
@@ -112,5 +148,15 @@
     .hero span {
         font-size: 1rem;
         margin-top: 20px;
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 65vw;
+        }
     }
 }

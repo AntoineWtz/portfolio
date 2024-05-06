@@ -94,9 +94,8 @@ const Projects = () => {
     }
   ];
 
-  // Fonction pour gérer le clic sur "Read more"
   const handleReadMore = () => {
-    setProjectsToShow(projectsToShow + 3); // Afficher 3 projets supplémentaires à chaque clic
+    setProjectsToShow(projectsToShow + 3); 
   };
 
   return (

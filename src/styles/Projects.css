@@ -20,13 +20,13 @@
 }
 
 .project-card {
-    width: calc(33.33% - 40px); 
+    width: calc(33.33% - 40px);
     margin: 0 20px 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    border:1px solid #D8CBC7;
+    border: 1px solid #D8CBC7;
 }
 
 .project-card:hover {
@@ -52,17 +52,17 @@
 .project-info p {
     font-size: 1.4em;
     margin-bottom: 20px;
-    overflow: hidden; 
-    text-overflow: ellipsis; 
+    overflow: hidden;
+    text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 3; 
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
 
 .project-links {
     display: flex;
-    justify-content: space-around; 
-    margin-top: auto; 
+    justify-content: space-around;
+    margin-top: auto;
 }
 
 .project-links a {
@@ -73,7 +73,8 @@
     border-radius: 5px;
     background-color: #D8CBC7;
     transition: background-color 0.3s ease-in-out;
-    margin-bottom: 10px; /* Ajoute un espace entre les boutons */
+    margin-bottom: 10px;
+    /* Ajoute un espace entre les boutons */
 }
 
 .project-links a:hover {
@@ -101,11 +102,11 @@
 
 @media only screen and (max-width: 768px) {
     .project-card {
-        width: calc(100% - 40px); 
+        width: calc(100% - 40px);
     }
 
     .project-links {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
     }
 }
