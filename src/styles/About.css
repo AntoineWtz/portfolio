@@ -4,7 +4,6 @@
     text-align: justify;
     padding: 20px 40px;
     border-top: 1px solid #D8CBC7;
-    border-bottom: 1px solid #D8CBC7;
 }
 
 .about h2 {
@@ -17,19 +16,23 @@
 
 .about p {
     font-size: 1.4em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
 .skills {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
     margin-top: 40px;
+    border-bottom: 1px solid #D8CBC7;
 }
 
 .column {
-    flex: 1;
+    flex: 0 0 calc(33.33% - 40px); 
     margin: 0 20px;
+    margin-bottom: 40px;
+    text-align: center; 
 }
 
 .column h3 {
@@ -46,4 +49,30 @@ ul {
 ul li {
     font-size: 1.4em;
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .skills {
+        flex-direction: column;
+        padding: 0 40px;
+    }
+    .column {
+        flex: 1; 
+        margin: 0;
+        margin-bottom: 20px; 
+        text-align: left; 
+    }
+
+    ul {
+        padding-left: 0; 
+    }
+
+    ul li {
+        display: inline; 
+        margin-right: 10px; 
+    }
+
+    ul li:not(:first-child) {
+        margin-left: 10px; 
+    }
 }

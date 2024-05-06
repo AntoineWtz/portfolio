@@ -19,8 +19,7 @@ const About = () => {
         <div className='column'>
           <h3><FaCode /></h3>
           <ul>
-            <li> HTML / CSS</li>
-            <li> JavaScript</li>
+            <li> HTML / CSS / JS</li>
             <li> React</li>
             <li> Angular</li>
             <li> Tailwind</li>
@@ -42,7 +41,7 @@ const About = () => {
           <ul>
             <li>MVC</li>
             <li>Agile</li>
-            <li>Trello/Notion/Jira</li>
+            <li>Trello / Notion</li>
             <li>Figma</li>
           </ul>
         </div>
