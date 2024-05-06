@@ -107,11 +107,27 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+    position: relative;
 }
 
 .read-more-btn:hover {
     background-color: #171614;
+}
+
+.read-more-btn::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #D8CBC7;
+    transition: width 0.6s ease;
+}
+
+.read-more-btn:hover::before {
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
