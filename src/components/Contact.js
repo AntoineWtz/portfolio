@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <section id="contact" className="contact">
       <h2>Contact</h2>
-      <p>You can contact me at <Email /> or fill in this form :</p>
+      <p>Hey, you can contact me at <Email /> or send me a message :</p>
 
       <div id="form" className="form">
         <form>

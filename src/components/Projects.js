@@ -9,6 +9,7 @@ import beecloon from '../img/img-project/beecloon.png';
 import opus from '../img/img-project/opus.png';
 import maison_ayele from '../img/img-project/maison_ayele.png';
 import plateformeacc from '../img/img-project/plateformeacc.png';
+import systemik from '../img/img-project/systemikrh.png';
 import '../styles/Projects.css';
 
 const Projects = () => {
@@ -42,7 +43,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Opus Musiques - Media',
+      title: 'Opus Musiques - Association',
       description: 'Web media for music lovers. Built with Laravel and Tailwind. Backend management, user authentication.',
       imageUrl: opus,
       projectLink: 'lien_vers_le_projet',
@@ -50,7 +51,7 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: 'Maison Ayele',
+      title: 'Maison Ayele - E-Commerce',
       description: 'Fixing out of stock issues on the website and adding new features. Built with PHP and Wordpress.',
       imageUrl: maison_ayele,
       projectLink: 'lien_vers_le_projet',
@@ -58,10 +59,18 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'Plateforme Accompagnement',
+      title: 'Plateforme Accompagnement - Association',
       description: 'A diary of artists and events that accompany and support Réunionese authors. Built with PHP and Wordpress.',
       imageUrl: plateformeacc,
       rojectLink: 'lien_vers_le_projet',
+      codeLink: 'lien_vers_le_code_source'
+    },
+    {
+      id: 7,
+      title: 'Systemik RH - HR',
+      description: 'A web-based management and training application dedicated to human resources. Built with PHP and Wordpress. Some front-end features.',
+      imageUrl: systemik,
+      projectLink: 'lien_vers_le_projet',
       codeLink: 'lien_vers_le_code_source'
     }
   ];
