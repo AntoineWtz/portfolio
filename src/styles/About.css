@@ -63,8 +63,13 @@ ul li {
         text-align: left; 
     }
 
+    h3 {
+        text-align: center;
+    }
+
     ul {
         padding-left: 0; 
+        text-align: center;
     }
 
     ul li {
