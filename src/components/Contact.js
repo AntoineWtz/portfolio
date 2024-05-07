@@ -12,10 +12,10 @@ const Email = () => {
 const Contact = () => {
   return (
     <section id="contact" className="contact">
-      <h2>Contact</h2>
-      <p>Hey, you can contact me at <Email /> or send me a message :</p>
+      {/* <h2>Contact</h2> */}
+      <p>Hey, contact me at <Email /></p>
 
-      <div id="form" className="form">
+      {/* <div id="form" className="form">
         <form>
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" required />
@@ -28,7 +28,7 @@ const Contact = () => {
 
           <button type="submit">Send</button>
         </form>
-      </div>
+      </div> */}
     </section>
   );
 };

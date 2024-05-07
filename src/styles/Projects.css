@@ -131,8 +131,21 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    .projects h2 {
+        font-size: 2.5em;
+    }
+
+    .projects .section-infos {
+        font-size: 1.3em;
+    }
+
     .project-card {
         width: calc(100% - 40px);
+    }
+
+    .project-image {
+        height: 150px;
     }
 
     .project-links {
@@ -142,5 +155,6 @@
 
     .project-info p {
         -webkit-line-clamp: 4;
+        font-size: 1.3em;
     }
 }
