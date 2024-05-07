@@ -31,23 +31,21 @@ const Projects = () => {
       title: 'Gîte Beaulieu - Booking',
       description: 'A booking web application for a cottage. Built with Laravel and Tailwind. Custom booking form, calendar.',
       imageUrl: beaulieu,
-      projectLink: 'https://www.gitedubeaulieu.fr/',
-      codeLink: 'secret'
+      projectLink: 'https://www.gitedubeaulieu.fr/'
     },
     {
       id: 3,
       title: 'Bee Cloon - E-commerce',
       description: 'An e-commerce web application built with PHP and Wordpres. Pack building feature, click and collect.',
       imageUrl: beecloon,
-      projectLink: 'https://beecloon.crowdaa.net/',
-      codeLink: 'secret'
+      projectLink: 'https://beecloon.crowdaa.net/'
     },
     {
       id: 4,
       title: 'React ToDo List',
-      description: 'A simple todo list web application like Trello built with React. Add, delete tasks, drag and drop. Local storage.',
+      description: 'A simple todo list web application like Trello built with React. Add, delete tasks, drag and drop.',
       imageUrl: todolist,
-      projectLink: 'https://maisonayele.com/',
+      projectLink: 'https://antoinewtz.github.io/todolist-react/',
       codeLink: 'https://github.com/AntoineWtz/todolist-react'
     },
     {
@@ -55,8 +53,7 @@ const Projects = () => {
       title: 'Maison Ayele - E-Commerce',
       description: 'Fixing out of stock issues on the website and adding new features. Built with PHP and Wordpress.',
       imageUrl: maison_ayele,
-      projectLink: 'https://maisonayele.com/',
-      codeLink: 'secret'
+      projectLink: 'https://maisonayele.com/'
     },
     {
       id: 6,
@@ -69,18 +66,16 @@ const Projects = () => {
     {
       id: 7,
       title: 'Plateforme Accompagnement - Association',
-      description: 'A diary of artists and events that accompany and support Réunionese authors. Built with PHP and Wordpress.',
+      description: 'A support platform for Réunionese artists and authors. Built with PHP and Wordpress.',
       imageUrl: plateformeacc,
-      rojectLink: 'https://www.plateforme-accompagnement.re/',
-      codeLink: 'secret'
+      projectLink: 'https://www.plateforme-accompagnement.re/'
     },
     {
       id: 8,
       title: 'Systemik RH - HR',
-      description: 'A web-based management and training application dedicated to human resources. Built with PHP and Wordpress. Some front-end features.',
+      description: 'A web-based management and training application for human resources. Some CSS and JS frontend.',
       imageUrl: systemik,
-      projectLink: 'https://systemik-rh.fr/',
-      codeLink: 'secret'
+      projectLink: 'https://systemik-rh.fr/'
     }
   ];
 
