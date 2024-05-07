@@ -15,7 +15,7 @@
 
 .contact p {
   font-size: 1.4em;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
 }
 
 .contact a {
@@ -89,6 +89,6 @@
 
 @media screen and (max-width: 768px) {
   .contact p {
-    text-align: center;
+    text-align: justify;
   }
 }
