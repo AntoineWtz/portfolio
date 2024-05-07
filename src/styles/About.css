@@ -53,6 +53,14 @@ ul li {
 
 @media only screen and (max-width: 768px) {
 
+    .about h2 {
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .about p {
+        font-size: 1.3em;
+    }
     .skills {
         flex-direction: column;
         padding: 0 40px;
@@ -64,6 +72,7 @@ ul li {
         margin-bottom: 20px; 
         text-align: left; 
     }
+
 
     h3 {
         text-align: center;
@@ -77,6 +86,7 @@ ul li {
     ul li {
         display: inline; 
         margin-right: 10px; 
+        font-size: 1.3em;
     }
 
     ul li:not(:first-child) {
