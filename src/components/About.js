@@ -32,17 +32,18 @@ const About = () => {
           <ul>
             <li> PHP</li>
             <li> Laravel</li>
-            <li> SQL</li>
-            <li> Git/GitHub</li>
+            <li> Node</li>
+            <li> MySQL</li>
           </ul>
         </div>
         <div className='column'>
           <h3><FaTools /></h3>
           <ul>
-            <li>MVC</li>
-            <li>Agile</li>
-            <li>Trello / Notion</li>
-            <li>Figma</li>
+            <li> Git/GitHub</li>
+            <li> Agile</li>
+            <li> MVC</li>
+            <li> Trello / Notion</li>
+            <li> Figma</li>
           </ul>
         </div>
       </div>
