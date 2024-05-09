@@ -20,7 +20,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Portfolio Website',
+      title: 'Portfolio',
       description: 'My personal portfolio website built with React. CSS effects, animations, responsive.',
       imageUrl: portfolio,
       projectLink: 'soon...',
@@ -28,55 +28,55 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Gîte Beaulieu - Booking',
-      description: 'A booking web application for a cottage. Built with Laravel and Tailwind. Custom booking form, calendar.',
+      title: 'Gîte du Beaulieu',
+      description: 'A booking web application for a cottage. Built with Laravel and Tailwind. Custom booking form, calendar, admin panel.',
       imageUrl: beaulieu,
       projectLink: 'https://www.gitedubeaulieu.fr/'
     },
     {
       id: 3,
-      title: 'Bee Cloon - E-commerce',
-      description: 'An e-commerce web application built with PHP and Wordpres. Pack building feature, click and collect.',
-      imageUrl: beecloon,
-      projectLink: 'https://beecloon.crowdaa.net/'
-    },
-    {
-      id: 4,
-      title: 'React ToDo List',
+      title: 'ToDo List',
       description: 'A simple todo list web application like Trello built with React. Add, delete tasks, drag and drop.',
       imageUrl: todolist,
       projectLink: 'https://antoinewtz.github.io/todolist-react/',
       codeLink: 'https://github.com/AntoineWtz/todolist-react'
     },
     {
+      id: 4,
+      title: 'Bee Cloon',
+      description: 'An e-commerce web application built with PHP and Wordpres. Pack building feature, click and collect.',
+      imageUrl: beecloon,
+      projectLink: 'https://beecloon.crowdaa.net/'
+    },
+    {
       id: 5,
-      title: 'Maison Ayele - E-Commerce',
+      title: 'Maison Ayele',
       description: 'Fixing out of stock issues on the website and adding new features. Built with PHP and Wordpress.',
       imageUrl: maison_ayele,
       projectLink: 'https://maisonayele.com/'
     },
     {
       id: 6,
-      title: 'Opus Musiques - Association',
-      description: 'Web media for music lovers. Built with Laravel and Tailwind. Backend management, user authentication.',
-      imageUrl: opus,
-      projectLink: 'http://www.opus-musiques.fr/',
-      codeLink: 'https://github.com/AntoineWtz/opus-perso'
+      title: 'Systemik RH - HR',
+      description: 'A web-based management and training application for human resources. Some CSS and JS frontend.',
+      imageUrl: systemik,
+      projectLink: 'https://systemik-rh.fr/'
     },
     {
       id: 7,
-      title: 'Plateforme Accompagnement - Association',
-      description: 'A support platform for Réunionese artists and authors. Built with PHP and Wordpress.',
+      title: 'Quizz App',
+      description: 'Quizz App built with Angular, TriviaDB API and friends @asutorizu & @cpck',
       imageUrl: plateformeacc,
       projectLink: 'https://www.plateforme-accompagnement.re/'
     },
     {
       id: 8,
-      title: 'Systemik RH - HR',
-      description: 'A web-based management and training application for human resources. Some CSS and JS frontend.',
-      imageUrl: systemik,
-      projectLink: 'https://systemik-rh.fr/'
-    }
+      title: 'Opus Musiques',
+      description: 'Web media for music lovers. Built with Laravel and Tailwind. Backend management, user authentication.',
+      imageUrl: opus,
+      projectLink: 'http://www.opus-musiques.fr/',
+      codeLink: 'https://github.com/AntoineWtz/opus-perso'
+    },
   ];
 
   const handleReadMore = () => {
