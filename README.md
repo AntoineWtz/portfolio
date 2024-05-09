@@ -19,7 +19,3 @@ https://antoinewtz.github.io/portfolio-react/
 * React
 * HTML/CSS/JS
 * SASS
-
-## Author
-
-This portfolio was created by Antoine. You can contact me by email at awtz.dev@gmail.com.
