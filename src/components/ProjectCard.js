@@ -1,7 +1,7 @@
 // ProjectCard.js
 
 import React from 'react';
-// import '../styles/ProjectCard.css';
+import '../styles/ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
     const { title, description, imageUrl, projectLink, codeLink } = project;
@@ -14,7 +14,9 @@ const ProjectCard = ({ project }) => {
                 <p>{description}</p>
                 <div className="project-links">
                     <a href={projectLink} target="_blank" rel="noopener noreferrer">view project</a>
-                    <a href={codeLink} target="_blank" rel="noopener noreferrer">view code</a>
+                    <a href={codeLink} target="_blank" rel="noopener noreferrer" className={codeLink ? 'has-code' : ''}>
+                        {codeLink ? 'view code' : 'secret code'}
+                    </a>
                 </div>
             </div>
         </div>
