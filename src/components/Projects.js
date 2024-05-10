@@ -9,7 +9,7 @@ import beecloon from '../img/img-project/beecloon.png';
 import opus from '../img/img-project/opus.png';
 import todolist from '../img/img-project/todolist.png';
 import maison_ayele from '../img/img-project/maison_ayele.png';
-import plateformeacc from '../img/img-project/plateformeacc.png';
+import quiz from '../img/img-project/quiz-app.png';
 import systemik from '../img/img-project/systemikrh.png';
 import '../styles/Projects.css';
 
@@ -65,9 +65,10 @@ const Projects = () => {
     {
       id: 7,
       title: 'Quizz App',
-      description: 'Quizz App built with Angular, TriviaDB API and friends @asutorizu & @cpck',
-      imageUrl: plateformeacc,
-      projectLink: 'https://www.plateforme-accompagnement.re/'
+      description: 'Quiz App built with Angular, TriviaDB API and friends @asutorizu & @cpck',
+      imageUrl: quiz,
+      projectLink: 'https://www.plateforme-accompagnement.re/',
+      codeLink: 'https://github.com/AntoineWtz/quiz-app'
     },
     {
       id: 8,
