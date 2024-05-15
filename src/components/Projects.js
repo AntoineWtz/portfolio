@@ -67,7 +67,7 @@ const Projects = () => {
       title: 'Quiz App',
       description: 'Quiz App built with Angular, TriviaDB API and friends @asutorizu @cpck & @gawele',
       imageUrl: quiz,
-      projectLink: 'https://www.plateforme-accompagnement.re/',
+      projectLink: 'https://antoinewtz.github.io/quiz-app/',
       codeLink: 'https://github.com/AntoineWtz/quiz-app'
     },
     {
