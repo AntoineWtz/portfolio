@@ -23,7 +23,7 @@ const Projects = () => {
       title: 'Portfolio',
       description: 'My personal portfolio website built with React. CSS effects, animations, responsive.',
       imageUrl: portfolio,
-      projectLink: 'soon...',
+      projectLink: 'https://antoinewtz.github.io/portfolio-react/',
       codeLink: 'https://github.com/AntoineWtz/portfolio-react'
     },
     {
