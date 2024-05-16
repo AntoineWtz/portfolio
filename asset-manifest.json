@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.bf1f2a16.css",
-    "main.js": "/portfolio-react/static/js/main.e03fdbc3.js",
+    "main.js": "/portfolio-react/static/js/main.11d2cd21.js",
     "static/js/453.906b0208.chunk.js": "/portfolio-react/static/js/453.906b0208.chunk.js",
     "static/media/gite-beaulieu.png": "/portfolio-react/static/media/gite-beaulieu.08cd55433948cb4ebbb5.png",
     "static/media/beecloon.png": "/portfolio-react/static/media/beecloon.030ef3da9b480508771e.png",
@@ -10,15 +10,16 @@
     "static/media/avatar-AW-trans2.png": "/portfolio-react/static/media/avatar-AW-trans2.b3966440595157eee2b4.png",
     "static/media/systemikrh.png": "/portfolio-react/static/media/systemikrh.da9f516d9d36044681ba.png",
     "static/media/quiz-app.png": "/portfolio-react/static/media/quiz-app.9537dc05cf40d977103a.png",
+    "static/media/snake-game.png": "/portfolio-react/static/media/snake-game.40441fe884ec375b2a24.png",
     "static/media/portfolio.png": "/portfolio-react/static/media/portfolio.90f403eb2d9271e5c576.png",
     "static/media/todolist.png": "/portfolio-react/static/media/todolist.ccb000ac346e9e8f1bd3.png",
     "index.html": "/portfolio-react/index.html",
     "main.bf1f2a16.css.map": "/portfolio-react/static/css/main.bf1f2a16.css.map",
-    "main.e03fdbc3.js.map": "/portfolio-react/static/js/main.e03fdbc3.js.map",
+    "main.11d2cd21.js.map": "/portfolio-react/static/js/main.11d2cd21.js.map",
     "453.906b0208.chunk.js.map": "/portfolio-react/static/js/453.906b0208.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf1f2a16.css",
-    "static/js/main.e03fdbc3.js"
+    "static/js/main.11d2cd21.js"
   ]
 }
