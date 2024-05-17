@@ -1,5 +1,4 @@
 // About.js
-
 import React from 'react';
 import { FaCode, FaDatabase, FaTools } from 'react-icons/fa';
 import '../styles/About.css';
@@ -20,11 +19,9 @@ const About = () => {
           <h3><FaCode /></h3>
           <ul>
             <li> HTML / CSS / JS</li>
-            <li> React</li>
-            <li> Angular</li>
-            <li> Tailwind</li>
-            <li> Bootstrap</li>
-            <li> JQuery</li>
+            <li> React / Angular</li>
+            <li> Laravel / JQuery</li>
+            <li> Tailwind / Bootstrap</li>
           </ul>
         </div>
         <div className='column'>
@@ -39,11 +36,10 @@ const About = () => {
         <div className='column'>
           <h3><FaTools /></h3>
           <ul>
-            <li> Git/GitHub</li>
-            <li> Agile</li>
-            <li> MVC</li>
+            <li> Git</li>
             <li> Trello / Notion</li>
             <li> Figma</li>
+            <li> Agile</li>
           </ul>
         </div>
       </div>

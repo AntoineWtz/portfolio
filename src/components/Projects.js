@@ -1,5 +1,4 @@
 // Projects.js
-
 import React from 'react';
 import { useState } from 'react';
 import ProjectCard from './ProjectCard';
@@ -39,7 +38,7 @@ const Projects = () => {
     {
       id: 3,
       title: 'Gîte du Beaulieu',
-      description: 'A booking web application for a cottage. Built with Laravel and Tailwind. Custom booking form, calendar, admin panel.',
+      description: 'A booking web application for a cottage. Built with Laravel and Tailwind. Booking form, admin panel.',
       imageUrl: beaulieu,
       projectLink: 'https://www.gitedubeaulieu.fr/'
     },
