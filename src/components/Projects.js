@@ -1,4 +1,3 @@
-// Projects.js
 import React from 'react';
 import { useState } from 'react';
 import ProjectCard from './ProjectCard';

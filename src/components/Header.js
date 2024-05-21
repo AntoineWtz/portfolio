@@ -1,4 +1,3 @@
-// Header.js
 import React, { useState } from 'react';
 import '../styles/Header.css';
 import logo from '../img/avatar-AW-trans2.png';

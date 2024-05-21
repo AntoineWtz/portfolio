@@ -1,4 +1,3 @@
-// About.js
 import React from 'react';
 import { FaCode, FaDatabase, FaTools } from 'react-icons/fa';
 import '../styles/About.css';
