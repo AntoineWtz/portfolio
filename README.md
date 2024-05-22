@@ -12,7 +12,7 @@ This repository contains the source code for my personal portfolio, which showca
 
 ## Preview
 
-https://antoinewtz.github.io/portfolio-react/
+[DemoLink](https://antoinewtz.github.io/portfolio/)
 
 ## Technologies Used
 
