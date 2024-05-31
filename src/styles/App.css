@@ -7,10 +7,10 @@
   box-sizing: border-box;
   font-family: Josefin Slab, sans-serif;
   font-weight: 600;
+  background-color: #171614;
 }
 
 body {
     margin: 0;
-    background-color: #171614;
     color: #D8CBC7;
 }
