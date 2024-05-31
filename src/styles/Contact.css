@@ -22,7 +22,7 @@
   font-weight: bold;
 }
 
-.form {
+/* .form {
   max-width: 600px;
   margin: 0 auto;
 }
@@ -85,7 +85,7 @@
   border: 1px solid #D8CBC7;
   background-color: #171614;
   box-shadow: 0 0 0 2px #D8CBC7;
-}
+} */
 
 @media screen and (max-width: 768px) {
   .contact p {
