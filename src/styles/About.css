@@ -1,5 +1,3 @@
-/* ABOUT CSS */
-
 .about {
     text-align: justify;
     padding: 20px 40px;
@@ -22,17 +20,17 @@
 
 .skills {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
     border-bottom: 1px solid #D8CBC7;
 }
 
 .column {
-    flex: 0 0 calc(33.33% - 40px); 
+    flex: 0 0 calc(33.33% - 40px);
     margin: 0 20px;
     margin-bottom: 40px;
-    text-align: center; 
+    text-align: center;
 }
 
 .column h3 {
@@ -61,16 +59,18 @@ ul li {
     .about p {
         font-size: 1.3em;
     }
+
     .skills {
         flex-direction: column;
         padding: 0 40px;
         padding-bottom: 40px;
     }
+
     .column {
-        flex: 1; 
+        flex: 1;
         margin: 0;
-        margin-bottom: 20px; 
-        text-align: left; 
+        margin-bottom: 20px;
+        text-align: left;
     }
 
 
@@ -79,17 +79,17 @@ ul li {
     }
 
     ul {
-        padding-left: 0; 
+        padding-left: 0;
         text-align: center;
     }
 
     ul li {
-        display: inline; 
-        margin-right: 10px; 
+        display: inline;
+        margin-right: 10px;
         font-size: 1.3em;
     }
 
     ul li:not(:first-child) {
-        margin-left: 10px; 
+        margin-left: 10px;
     }
 }
