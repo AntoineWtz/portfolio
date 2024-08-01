@@ -8,7 +8,6 @@ import beaulieu from '../img/img-project/gite-beaulieu.png';
 import beecloon from '../img/img-project/beecloon.png';
 import opus from '../img/img-project/opus.png';
 import todolist from '../img/img-project/todolist.png';
-import maison_ayele from '../img/img-project/maison_ayele.png';
 import quiz from '../img/img-project/quiz-app.png';
 import systemik from '../img/img-project/systemikrh.png';
 import '../styles/Projects.css';
@@ -20,19 +19,19 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Snake Game',
-      description: 'A simple snake game built with React. Use the arrow keys to move the snake and eat the food.',
-      imageUrl: snake,
-      projectLink: 'https://antoinewtz.github.io/snake-game/',
-      codeLink: 'https://github.com/AntoineWtz/snake-game'
-    },
-    {
-      id: 2,
       title: 'Portfolio',
       description: 'My personal portfolio website built with React. CSS effects, animations, responsive.',
       imageUrl: portfolio,
       projectLink: 'https://antoinewtz.github.io/portfolio-react/',
       codeLink: 'https://github.com/AntoineWtz/portfolio-react'
+    },
+    {
+      id: 2,
+      title: 'Snake Game',
+      description: 'A simple snake game built with React. Use the arrow keys to move the snake and eat the food.',
+      imageUrl: snake,
+      projectLink: 'https://antoinewtz.github.io/snake-game/',
+      codeLink: 'https://github.com/AntoineWtz/snake-game'
     },
     {
       id: 3,
@@ -58,20 +57,13 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'Maison Ayele',
-      description: 'Fixing out of stock issues on the website and adding new features. Built with PHP and Wordpress.',
-      imageUrl: maison_ayele,
-      projectLink: 'https://maisonayele.com/'
-    },
-    {
-      id: 7,
       title: 'Systemik RH - HR',
       description: 'A web-based management and training application for human resources. Some CSS and JS frontend.',
       imageUrl: systemik,
       projectLink: 'https://systemik-rh.fr/'
     },
     {
-      id: 8,
+      id: 7,
       title: 'Quiz App',
       description: 'Quiz App built with Angular, TriviaDB API and friends @asutorizu @cpck & @gawele',
       imageUrl: quiz,
@@ -79,7 +71,7 @@ const Projects = () => {
       codeLink: 'https://github.com/AntoineWtz/quiz-app'
     },
     {
-      id: 9,
+      id: 8,
       title: 'Opus Musiques',
       description: 'Web media for music lovers. Built with Laravel and Tailwind. Backend management, user authentication.',
       imageUrl: opus,
