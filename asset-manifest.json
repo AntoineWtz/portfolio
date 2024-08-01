@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf1f2a16.css",
-    "main.js": "/portfolio/static/js/main.a1a77791.js",
+    "main.css": "/portfolio/static/css/main.909d09db.css",
+    "main.js": "/portfolio/static/js/main.1597e828.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/gite-beaulieu.png": "/portfolio/static/media/gite-beaulieu.08cd55433948cb4ebbb5.png",
     "static/media/beecloon.png": "/portfolio/static/media/beecloon.030ef3da9b480508771e.png",
     "static/media/opus.png": "/portfolio/static/media/opus.1f9893f13b7820de82ce.png",
-    "static/media/maison_ayele.png": "/portfolio/static/media/maison_ayele.9ee377b8ccbd9eba505e.png",
     "static/media/avatar-AW-trans2.png": "/portfolio/static/media/avatar-AW-trans2.b3966440595157eee2b4.png",
     "static/media/systemikrh.png": "/portfolio/static/media/systemikrh.da9f516d9d36044681ba.png",
     "static/media/quiz-app.png": "/portfolio/static/media/quiz-app.9537dc05cf40d977103a.png",
@@ -14,12 +13,12 @@
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.90f403eb2d9271e5c576.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.ccb000ac346e9e8f1bd3.png",
     "index.html": "/portfolio/index.html",
-    "main.bf1f2a16.css.map": "/portfolio/static/css/main.bf1f2a16.css.map",
-    "main.a1a77791.js.map": "/portfolio/static/js/main.a1a77791.js.map",
+    "main.909d09db.css.map": "/portfolio/static/css/main.909d09db.css.map",
+    "main.1597e828.js.map": "/portfolio/static/js/main.1597e828.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf1f2a16.css",
-    "static/js/main.a1a77791.js"
+    "static/css/main.909d09db.css",
+    "static/js/main.1597e828.js"
   ]
 }
