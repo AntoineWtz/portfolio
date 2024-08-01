@@ -17,28 +17,27 @@ const About = () => {
         <div className='column'>
           <h3><FaCode /></h3>
           <ul>
-            <li> HTML / CSS / JS</li>
-            <li> React / Angular</li>
-            <li> Laravel / JQuery</li>
-            <li> Tailwind / Bootstrap</li>
+            <li> HTML - CSS - JS</li>
+            <li> ReactJS - Angular - ThreeJS</li>
+            <li> Laravel - JQuery</li>
+            <li> Tailwind - Bootstrap</li>
           </ul>
         </div>
         <div className='column'>
           <h3><FaDatabase /></h3>
           <ul>
-            <li> PHP</li>
-            <li> Laravel</li>
-            <li> Node</li>
-            <li> MySQL</li>
+            <li> NodeJS</li>
+            <li> PHP - Laravel</li>
+            <li> MySQL - MongoDB</li>
           </ul>
         </div>
         <div className='column'>
           <h3><FaTools /></h3>
           <ul>
-            <li> Git</li>
+            <li> Git - CI/CD</li>
             <li> Trello / Notion</li>
+            <li> Agile / SCRUM</li>
             <li> Figma</li>
-            <li> Agile</li>
           </ul>
         </div>
       </div>
