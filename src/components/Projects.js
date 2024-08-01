@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import ProjectCard from './ProjectCard';
 
+import island from '../img/img-project/island.png';
 import snake from '../img/img-project/snake-game.png';
 import portfolio from '../img/img-project/portfolio.png';
 import beaulieu from '../img/img-project/gite-beaulieu.png';
@@ -17,6 +18,14 @@ const Projects = () => {
   const [projectsToShow, setProjectsToShow] = useState(initialProjectsToShow);
 
   const projects = [
+    {
+      id: 0,
+      title: 'Island in Three.js',
+      description: 'A 3D island built with Three.js. Trees, sky, clouds, switch day/night, camera controls.',
+      imageUrl: island,
+      projectLink: 'https://antoinewtz.github.io/portfolio-threejs/',
+      codeLink: 'https://github.com/AntoineWtz/portfolio-threejs'
+    },
     {
       id: 1,
       title: 'Portfolio',
